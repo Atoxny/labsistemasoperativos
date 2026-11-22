@@ -35,4 +35,4 @@ echo ""
 echo "	/proc - Informacion de procesos y kernel"
 echo "Sistema de archivos virtual en memoria que expone informacion sobre procesos activos, CPU, memoria y el kernel"
 ls -ls /proc
-echo ""
+echo "FIN"
