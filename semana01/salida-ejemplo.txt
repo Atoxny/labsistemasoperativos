@@ -1,0 +1,571 @@
+	/etc - Configuracion del sistema 
+Contiene archivos de configuracion globales del sistema y de los servicios
+total 1396
+drwxr-xr-x 158 root   root    12288 nov 17 20:24 .
+drwxr-xr-x  23 root   root     4096 mar  3  2026 ..
+-rw-r--r--   1 root   root     3444 jul  5  2023 adduser.conf
+-rw-r--r--   1 root   root       18 feb 24  2026 adjtime
+drwxr-xr-x   3 root   root     4096 ene  8  2026 alsa
+drwxr-xr-x   2 root   root    12288 nov 17 13:38 alternatives
+-rw-r--r--   1 root   root      335 abr  8  2024 anacrontab
+drwxr-xr-x   3 root   root     4096 mar  2  2026 apache2
+-rw-r--r--   1 root   root      433 abr  8  2024 apg.conf
+drwxr-xr-x   5 root   root     4096 ene  8  2026 apm
+drwxr-xr-x   3 root   root     4096 nov 17 13:33 apparmor
+drwxr-xr-x   9 root   root    12288 nov 17 13:35 apparmor.d
+drwxr-xr-x   3 root   root     4096 ene  8  2026 apport
+drwxr-xr-x   8 root   root     4096 feb 24  2026 apt
+drwxr-xr-x   3 root   root     4096 nov 17 13:35 avahi
+-rw-r--r--   1 root   root     2319 mar 31  2024 bash.bashrc
+-rw-r--r--   1 root   root       45 ene 24  2020 bash_completion
+drwxr-xr-x   2 root   root     4096 feb 26  2026 bash_completion.d
+-rw-r--r--   1 root   root      367 ago  2  2022 bindresvport.blacklist
+drwxr-xr-x   2 root   root     4096 abr 19  2024 binfmt.d
+drwxr-xr-x   2 root   root     4096 ene  8  2026 bluetooth
+-rw-r-----   1 root   root       33 ene  8  2026 brlapi.key
+drwxr-xr-x   7 root   root     4096 ene  8  2026 brltty
+-rw-r--r--   1 root   root    30571 mar 30  2024 brltty.conf
+drwxr-xr-x   3 root   root     4096 ene  8  2026 ca-certificates
+-rw-r--r--   1 root   root     6288 ene  8  2026 ca-certificates.conf
+-rw-r--r--   1 root   root      437 abr 18  2024 casper.conf
+drwxr-s---   2 root   dip      4096 ene  8  2026 chatscripts
+drwxr-xr-x   2 root   root     4096 ene  8  2026 cifs-utils
+drwxr-xr-x   2 colord colord   4096 feb 24  2026 colord
+drwxr-xr-x   2 root   root     4096 ene  8  2026 compizconfig
+drwxr-xr-x   2 root   root     4096 feb 24  2026 console-setup
+drwxr-xr-x   2 root   root     4096 ene  8  2026 cracklib
+drwx------   2 root   root     4096 abr 19  2024 credstore
+drwx------   2 root   root     4096 abr 19  2024 credstore.encrypted
+drwxr-xr-x   2 root   root     4096 feb 24  2026 cron.d
+drwxr-xr-x   2 root   root     4096 ene  8  2026 cron.daily
+drwxr-xr-x   2 root   root     4096 ene  8  2026 cron.hourly
+drwxr-xr-x   2 root   root     4096 ene  8  2026 cron.monthly
+-rw-r--r--   1 root   root     1136 mar 30  2024 crontab
+drwxr-xr-x   2 root   root     4096 ene  8  2026 cron.weekly
+drwxr-xr-x   2 root   root     4096 ene  8  2026 cron.yearly
+drwxr-xr-x   2 root   root     4096 ene  8  2026 cryptsetup-initramfs
+drwxr-xr-x   5 root   lp       4096 nov 22 16:09 cups
+drwxr-xr-x   2 root   root     4096 ene  8  2026 cupshelpers
+drwxr-xr-x   4 root   root     4096 ene  8  2026 dbus-1
+drwxr-xr-x   3 root   root     4096 ene  8  2026 dconf
+-rw-r--r--   1 root   root     2967 abr 12  2024 debconf.conf
+-rw-r--r--   1 root   root       11 abr 22  2024 debian_version
+drwxr-xr-x   2 root   root     4096 ene  8  2026 debuginfod
+drwxr-xr-x   3 root   root     4096 abr  6  2026 default
+-rw-r--r--   1 root   root     1706 jul  5  2023 deluser.conf
+drwxr-xr-x   2 root   root     4096 ene  8  2026 depmod.d
+drwxr-xr-x   4 root   root     4096 ene  8  2026 dhcp
+-rw-r--r--   1 root   root     1429 mar 31  2024 dhcpcd.conf
+drwxr-xr-x   2 root   root     4096 feb 24  2026 dictionaries-common
+drwxr-xr-x   3 root   root     4096 ene  8  2026 dkms
+drwxr-xr-x   4 root   root     4096 ene  8  2026 dpkg
+-rw-r--r--   1 root   root      685 abr  8  2024 e2scrub.conf
+drwxr-xr-x   3 root   root     4096 ene  8  2026 emacs
+-rw-r--r--   1 root   root      106 ene  8  2026 environment
+drwxr-xr-x   2 root   root     4096 mar  3  2026 environment.d
+-rw-r--r--   1 root   root     1853 oct 17  2022 ethertypes
+drwxr-xr-x   4 root   root     4096 feb 24  2026 fonts
+-rw-r--r--   1 root   root       20 abr  3  2024 fprintd.conf
+-rw-r--r--   1 root   root      665 feb 24  2026 fstab
+-rw-r--r--   1 root   root      694 abr  8  2024 fuse.conf
+drwxr-xr-x   4 root   root     4096 abr  6  2026 fwupd
+-rw-r--r--   1 root   root     2584 ene 30  2024 gai.conf
+drwxr-xr-x   3 root   root     4096 abr  6  2026 gdb
+drwxr-xr-x   3 root   root     4096 ene  8  2026 geoclue
+drwxr-xr-x   4 root   root     4096 ene  8  2026 ghostscript
+drwxr-xr-x   3 root   root     4096 ene  8  2026 glvnd
+drwxr-xr-x   2 root   root     4096 ene  8  2026 gnome
+drwxr-xr-x   2 root   root     4096 ene  8  2026 gnome-app-install
+drwxr-xr-x   2 root   root     4096 ene  8  2026 gnome-system-tools
+drwxr-xr-x   2 root   root     4096 nov 17 13:13 gnutls
+-rw-r--r--   1 root   root     3986 dic  3  2025 gprofng.rc
+drwxr-xr-x   2 root   root     4096 ene  8  2026 groff
+-rw-r--r--   1 root   root     1149 feb 25  2026 group
+-rw-r--r--   1 root   root     1133 feb 24  2026 group-
+drwxr-xr-x   2 root   root     4096 abr  6  2026 grub.d
+-rw-r-----   1 root   shadow    974 feb 25  2026 gshadow
+-rw-r-----   1 root   shadow    960 feb 24  2026 gshadow-
+drwxr-xr-x   3 root   root     4096 ene  8  2026 gss
+drwxr-xr-x   2 root   root     4096 ene  8  2026 gtk-2.0
+drwxr-xr-x   2 root   root     4096 ene  8  2026 gtk-3.0
+drwxr-xr-x   2 root   root     4096 abr  8  2024 guest-session
+drwxr-xr-x   3 root   root     4096 ene  8  2026 gufw
+-rw-r--r--   1 root   root     4436 oct  6  2022 hdparm.conf
+-rw-r--r--   1 root   root       92 abr 22  2024 host.conf
+-rw-r--r--   1 root   root       16 feb 24  2026 hostname
+-rw-r--r--   1 root   root      230 feb 24  2026 hosts
+-rw-r--r--   1 root   root      411 ene  8  2026 hosts.allow
+-rw-r--r--   1 root   root      711 ene  8  2026 hosts.deny
+drwxr-xr-x   2 root   root     4096 ene  8  2026 hp
+drwxr-xr-x   3 root   root     4096 ene  8  2026 ifplugd
+drwxr-xr-x   2 root   root     4096 feb 24  2026 ImageMagick-6
+drwxr-xr-x   2 root   root     4096 feb 24  2026 init
+drwxr-xr-x   2 root   root     4096 nov 17 13:35 init.d
+drwxr-xr-x   5 root   root     4096 mar  3  2026 initramfs-tools
+-rw-r--r--   1 root   root     1875 mar 31  2024 inputrc
+-rw-r--r--   1 root   root       71 jun 14  2022 inxi.conf
+drwxr-xr-x   2 root   root     4096 ene  8  2026 ipp-usb
+drwxr-xr-x   4 root   root     4096 ene  8  2026 iproute2
+-rw-r--r--   1 root   root       28 nov 11  2025 issue
+-rw-r--r--   1 root   root       21 nov 11  2025 issue.net
+drwxr-xr-x   3 root   root     4096 feb 26  2026 .java
+drwxr-xr-x   5 root   root     4096 feb 26  2026 java-21-openjdk
+drwxr-xr-x   8 root   root     4096 ene  8  2026 kernel
+-rw-r--r--   1 root   root     1308 mar 31  2024 kerneloops.conf
+drwxr-xr-x   2 root   root     4096 abr  8  2024 keyutils
+drwxr-xr-x   2 root   root     4096 nov 17 13:33 ldap
+-rw-r--r--   1 root   root   117096 nov 17 20:24 ld.so.cache
+-rw-r--r--   1 root   root       34 ago  2  2022 ld.so.conf
+drwxr-xr-x   2 root   root     4096 nov 17 13:37 ld.so.conf.d
+-rw-r--r--   1 root   root        0 feb 27  2024 legal
+-rw-r--r--   1 root   root       27 abr  8  2024 libao.conf
+-rw-r--r--   1 root   root      191 mar 30  2024 libaudit.conf
+drwxr-xr-x   3 root   root     4096 ene  8  2026 libblockdev
+drwxr-xr-x   2 root   root     4096 ene  8  2026 libnl-3
+drwxr-xr-x   2 root   root     4096 mar  2  2026 libpaper.d
+drwxr-xr-x   3 root   root     4096 ene  8  2026 libreoffice
+drwxr-xr-x   4 root   root     4096 mar 15  2026 lightdm
+drwxr-xr-x   4 root   root     4096 mar  2  2026 lighttpd
+drwxr-xr-x   2 root   root     4096 ene  8  2026 linuxmint
+-rw-r--r--   1 root   root     2996 mar 30  2024 locale.alias
+-rw-r--r--   1 root   root       39 feb 24  2026 locale.conf
+-rw-r--r--   1 root   root     9561 nov 17 13:19 locale.gen
+lrwxrwxrwx   1 root   root       34 feb 24  2026 localtime -> /usr/share/zoneinfo/America/La_Paz
+drwxr-xr-x   5 root   root     4096 ene  8  2026 logcheck
+-rw-r--r--   1 root   root    12345 feb 22  2024 login.defs
+-rw-r--r--   1 root   root      586 abr  8  2024 logrotate.conf
+drwxr-xr-x   2 root   root     4096 nov 17 13:35 logrotate.d
+-rw-r--r--   1 root   root      107 nov 11  2025 lsb-release
+-rw-r--r--   1 root   root    14867 abr  1  2024 ltrace.conf
+drwxr-xr-x   3 root   root     4096 ene  8  2026 lvm
+-rw-r--r--   1 root   root       33 feb 25  2026 machine-id
+-rw-r--r--   1 root   root      111 mar 31  2024 magic
+-rw-r--r--   1 root   root      111 mar 31  2024 magic.mime
+-rw-r--r--   1 root   root    41442 nov 17 13:37 mailcap
+-rw-r--r--   1 root   root      449 dic 10  2021 mailcap.order
+-rw-r--r--   1 root   root     5230 abr  8  2024 manpath.config
+drwxr-xr-x   3 root   root     4096 may  9  2026 maven
+drwxr-xr-x   2 root   root     4096 feb 24  2026 mdadm
+-rw-r--r--   1 root   root    75113 jul 12  2023 mime.types
+-rw-r--r--   1 root   root      744 abr  8  2024 mke2fs.conf
+drwxr-xr-x   4 root   root     4096 ene  8  2026 ModemManager
+drwxr-xr-x   2 root   root     4096 mar  3  2026 modprobe.d
+-rw-r--r--   1 root   root      212 ene  8  2026 modules
+drwxr-xr-x   2 root   root     4096 nov 17 13:12 modules-load.d
+-rw-r--r--   1 root   root        1 ene  8  2026 motd
+lrwxrwxrwx   1 root   root       19 feb 24  2026 mtab -> ../proc/self/mounts
+-rw-r--r--   1 root   root      624 ago  3  2023 mtools.conf
+-rw-r--r--   1 root   root    11424 may 23  2023 nanorc
+-rw-r--r--   1 root   root      767 mar 30  2024 netconfig
+drwxr-xr-x   2 root   root     4096 abr 30  2026 netplan
+drwxr-xr-x   6 root   root     4096 ene  8  2026 network
+drwxr-xr-x   8 root   root     4096 ene  8  2026 networkd-dispatcher
+drwxr-xr-x   8 root   root     4096 abr  6  2026 NetworkManager
+-rw-r--r--   1 root   root       91 abr 22  2024 networks
+drwxr-xr-x   2 root   root     4096 ene  8  2026 newt
+-rwxr-xr-x   1 root   root      243 oct 19  2023 nftables.conf
+-rw-r--r--   1 root   root      569 ene  8  2026 nsswitch.conf
+drwxr-xr-x   2 root   root     4096 ene  8  2026 openal
+drwxr-xr-x   2 root   root     4096 feb 24  2026 openni2
+drwxr-xr-x   4 root   root     4096 abr  6  2026 openvpn
+drwxr-xr-x   2 root   root     4096 ene  8  2026 opt
+lrwxrwxrwx   1 root   root       21 feb 24  2026 os-release -> ../usr/lib/os-release
+drwxr-xr-x   2 root   root     4096 ene  8  2026 PackageKit
+-rw-r--r--   1 root   root      552 oct 13  2022 pam.conf
+drwxr-xr-x   2 root   root     4096 nov 17 13:35 pam.d
+-rw-r--r--   1 root   root        7 feb 24  2026 papersize
+-rw-r--r--   1 root   root     2780 feb 24  2026 passwd
+-rw-r--r--   1 root   root     2768 feb 24  2026 passwd-
+drwxr-xr-x   2 root   root     4096 ene  8  2026 pcmcia
+drwxr-xr-x   4 root   root     4096 ene  8  2026 perl
+drwxr-xr-x   4 root   root     4096 ene  8  2026 pki
+drwxr-xr-x   2 root   root     4096 feb 25  2025 plymouth
+drwxr-xr-x   5 root   root     4096 ene  8  2026 pm
+-rw-r--r--   1 root   root     7649 ene  8  2026 pnm2ppa.conf
+drwxr-xr-x   4 root   root     4096 ene  8  2026 polkit-1
+drwxr-xr-x   8 root   dip      4096 ene  8  2026 ppp
+lrwxrwxrwx   1 root   root       18 nov 17 13:35 printcap -> /run/cups/printcap
+-rw-r--r--   1 root   root      582 abr 22  2024 profile
+drwxr-xr-x   2 root   root     4096 feb 24  2026 profile.d
+-rw-r--r--   1 root   root     3144 oct 17  2022 protocols
+drwxr-xr-x   3 root   root     4096 ene  8  2026 pulse
+-rw-------   1 root   root        0 ene  8  2026 .pwd.lock
+drwxr-xr-x   2 root   root     4096 ene  8  2026 python3
+drwxr-xr-x   2 root   root     4096 abr  6  2026 python3.12
+-rw-r--r--   1 root   root     1210 abr  1  2024 rarfiles.lst
+drwxr-xr-x   2 root   root     4096 ene  8  2026 rc0.d
+drwxr-xr-x   2 root   root     4096 ene  8  2026 rc1.d
+drwxr-xr-x   2 root   root     4096 ene  8  2026 rc2.d
+drwxr-xr-x   2 root   root     4096 ene  8  2026 rc3.d
+drwxr-xr-x   2 root   root     4096 ene  8  2026 rc4.d
+drwxr-xr-x   2 root   root     4096 ene  8  2026 rc5.d
+drwxr-xr-x   2 root   root     4096 ene  8  2026 rc6.d
+drwxr-xr-x   2 root   root     4096 ene  8  2026 rcS.d
+-rw-r--r--   1 root   root     1787 abr  8  2024 request-key.conf
+drwxr-xr-x   2 root   root     4096 ene  8  2026 request-key.d
+lrwxrwxrwx   1 root   root       39 feb 24  2026 resolv.conf -> ../run/systemd/resolve/stub-resolv.conf
+-rw-r--r--   1 root   root      913 ene  8  2026 .resolv.conf.systemd-resolved.bak
+lrwxrwxrwx   1 root   root       13 feb 24  2026 rmt -> /usr/sbin/rmt
+-rw-r--r--   1 root   root      911 oct 17  2022 rpc
+-rw-r--r--   1 root   root     1213 mar 21  2024 rsyslog.conf
+drwxr-xr-x   2 root   root     4096 ene  8  2026 rsyslog.d
+drwxr-xr-x   3 root   root     4096 ene  8  2026 samba
+drwxr-xr-x   3 root   root     4096 ene  8  2026 sane.d
+drwxr-xr-x   4 root   root     4096 nov 17 13:35 security
+drwxr-xr-x   2 root   root     4096 ene  8  2026 selinux
+-rw-r--r--   1 root   root    10593 mar 30  2024 sensors3.conf
+drwxr-xr-x   2 root   root     4096 ene  8  2026 sensors.d
+-rw-r--r--   1 root   root    12813 mar 27  2021 services
+drwxr-xr-x   3 root   root     4096 ene  8  2026 sgml
+-rw-r-----   1 root   shadow   1257 feb 24  2026 shadow
+-rw-r-----   1 root   shadow   1154 feb 24  2026 shadow-
+-rw-r--r--   1 root   root      165 nov 10 16:45 shells
+drwxr-xr-x   3 root   root     4096 mar  3  2026 signon-ui
+drwxr-xr-x   4 root   root     4096 ene  8  2026 skel
+drwxr-xr-x   2 root   root     4096 ene  8  2026 snmp
+drwxr-xr-x   4 root   root     4096 ene  8  2026 speech-dispatcher
+drwxr-xr-x   3 root   root     4096 abr  6  2026 ssh
+drwxr-xr-x   4 root   root     4096 nov 17 13:35 ssl
+-rw-r--r--   1 root   root       23 feb 24  2026 subgid
+-rw-r--r--   1 root   root        0 ene  8  2026 subgid-
+-rw-r--r--   1 root   root       23 feb 24  2026 subuid
+-rw-r--r--   1 root   root        0 ene  8  2026 subuid-
+-rw-r--r--   1 root   root     4343 abr  8  2024 sudo.conf
+-r--r-----   1 root   root     1800 ene 29  2024 sudoers
+drwxr-xr-x   2 root   root     4096 abr  6  2026 sudoers.d
+-rw-r--r--   1 root   root     9804 abr  8  2024 sudo_logsrvd.conf
+drwxr-xr-x   2 root   root     4096 ene  8  2026 supercat
+-rw-r--r--   1 root   root     2209 mar 24  2024 sysctl.conf
+drwxr-xr-x   2 root   root     4096 nov 17 13:12 sysctl.d
+drwxr-xr-x   7 root   root     4096 nov 17 13:35 systemd
+drwxr-xr-x   2 root   root     4096 nov 17 13:12 terminfo
+drwxr-xr-x   8 root   root     4096 mar  2  2026 texmf
+drwxr-xr-x   2 root   root     4096 mar  3  2026 thermald
+drwxr-xr-x   3 root   root     4096 feb 26  2026 timeshift
+-rw-r--r--   1 root   root       15 abr  6  2026 timezone
+drwxr-xr-x   2 root   root     4096 feb 24  2026 timidity
+drwxr-xr-x   2 root   root     4096 abr 19  2024 tmpfiles.d
+-rw-r--r--   1 root   root      938 sep  9  2019 ts.conf
+-rw-r--r--   1 root   root     1260 ene 27  2023 ucf.conf
+drwxr-xr-x   4 root   root     4096 nov 17 13:35 udev
+drwxr-xr-x   2 root   root     4096 ene  8  2026 udisks2
+drwxr-xr-x   3 root   root     4096 ene  8  2026 ufw
+-rw-r--r--   1 root   root      208 nov 17 13:18 .updated
+-rw-r--r--   1 root   root      583 jul 31  2023 updatedb.conf
+drwxr-xr-x   2 root   root     4096 abr  6  2026 update-motd.d
+drwxr-xr-x   2 root   root     4096 ene  8  2026 UPower
+drwxr-xr-x   2 root   root     4096 ene  8  2026 upstream-release
+-rw-r--r--   1 root   root     1523 abr  8  2024 usb_modeswitch.conf
+drwxr-xr-x   2 root   root     4096 dic 16  2023 usb_modeswitch.d
+lrwxrwxrwx   1 root   root       16 feb 24  2026 vconsole.conf -> default/keyboard
+-rw-r--r--   1 root   root       51 mar  7  2022 vdpau_wrapper.cfg
+drwxr-xr-x   2 root   root     4096 abr  6  2026 vim
+lrwxrwxrwx   1 root   root       23 feb 24  2026 vtrgb -> /etc/alternatives/vtrgb
+drwxr-xr-x   5 root   root     4096 ene  8  2026 vulkan
+-rw-r--r--   1 root   root     4942 jun 19  2024 wgetrc
+drwxr-xr-x   2 root   root     4096 mar  3  2026 wpa_supplicant
+drwxr-xr-x  11 root   root     4096 ene  8  2026 X11
+-rw-r--r--   1 root   root      681 abr  8  2024 xattr.conf
+drwxr-xr-x  10 root   root     4096 mar  3  2026 xdg
+drwxr-xr-x   2 root   root     4096 ene  8  2026 xfce4
+drwxr-xr-x   2 root   root     4096 ene  8  2026 xml
+-rw-r--r--   1 root   root      460 ene 20  2023 zsh_command_not_found
+
+	/var - Datos variables 
+Almacena informacion que cambia durante la operacion normal, como los logs y el cache
+total 48
+drwxr-xr-x 11 root root   4096 nov 17 20:24 .
+drwxr-xr-x 23 root root   4096 mar  3  2026 ..
+drwxr-xr-x  2 root root   4096 nov 22 17:21 backups
+drwxr-xr-x 24 root root   4096 mar  2  2026 cache
+drwxr-xr-x 75 root root   4096 mar  2  2026 lib
+drwxrwsr-x  2 root staff  4096 abr 22  2024 local
+lrwxrwxrwx  1 root root      9 feb 24  2026 lock -> /run/lock
+drwxrwxr-x 14 root syslog 4096 nov 22  2026 log
+drwxrwsr-x  2 root mail   4096 ene  8  2026 mail
+drwxr-xr-x  2 root root   4096 ene  8  2026 opt
+lrwxrwxrwx  1 root root      4 feb 24  2026 run -> /run
+drwxr-xr-x  7 root root   4096 ene  8  2026 spool
+drwxrwxrwt 13 root root   4096 nov 22 17:54 tmp
+-rw-r--r--  1 root root    208 nov 17 13:18 .updated
+
+	/home - Directorios de usuarios 
+Guarda las carpetas personales, configuracion y archivos de cada usuario normal
+	/tmp - Archivos temprales
+ Espacio temporal compartido por programas y usuarios que suele eliminares al reiniciar
+total 84
+drwxrwxrwt 19 root      root      4096 nov 22 18:00 .
+drwxr-xr-x 23 root      root      4096 mar  3  2026 ..
+-rw-------  1 mamitomoe mamitomoe    0 nov 22  2026 config-err-2NRQFc
+drwxrwxrwt  2 root      root      4096 nov 22  2026 .font-unix
+drwxrwxrwt  2 root      root      4096 nov 22  2026 .ICE-unix
+drwxrwxrwx  2 mamitomoe mamitomoe 4096 nov 22 17:34 mintUpdate
+drwx------  2 mamitomoe mamitomoe 4096 nov 22  2026 ssh-tuZLuFrWeaoL
+drwx------  3 root      root      4096 nov 22  2026 systemd-private-690b439b91954ab7aaa1ee45003e0655-colord.service-gZzeZp
+drwx------  3 root      root      4096 nov 22 17:54 systemd-private-690b439b91954ab7aaa1ee45003e0655-fwupd.service-utW3P6
+drwx------  3 root      root      4096 nov 22  2026 systemd-private-690b439b91954ab7aaa1ee45003e0655-geoclue.service-27nm2a
+drwx------  3 root      root      4096 nov 22  2026 systemd-private-690b439b91954ab7aaa1ee45003e0655-ModemManager.service-NZnuAZ
+drwx------  3 root      root      4096 nov 22  2026 systemd-private-690b439b91954ab7aaa1ee45003e0655-polkit.service-AeVngQ
+drwx------  3 root      root      4096 nov 22  2026 systemd-private-690b439b91954ab7aaa1ee45003e0655-power-profiles-daemon.service-JLxScH
+drwx------  3 root      root      4096 nov 22  2026 systemd-private-690b439b91954ab7aaa1ee45003e0655-switcheroo-control.service-7mx7re
+drwx------  3 root      root      4096 nov 22  2026 systemd-private-690b439b91954ab7aaa1ee45003e0655-systemd-logind.service-6uHp8Y
+drwx------  3 root      root      4096 nov 22  2026 systemd-private-690b439b91954ab7aaa1ee45003e0655-systemd-resolved.service-MHtO9K
+drwx------  3 root      root      4096 nov 22  2026 systemd-private-690b439b91954ab7aaa1ee45003e0655-systemd-timesyncd.service-ovxPoW
+drwx------  3 root      root      4096 nov 22  2026 systemd-private-690b439b91954ab7aaa1ee45003e0655-upower.service-l04EPj
+-r--r--r--  1 root      root        11 nov 22  2026 .X0-lock
+drwxrwxrwt  2 root      root      4096 nov 22  2026 .X11-unix
+-rw-------  1 mamitomoe mamitomoe  442 nov 22  2026 .xfsm-ICE-BBB6Y3
+drwxrwxrwt  2 root      root      4096 nov 22  2026 .XIM-unix
+
+	/bin - Comandos esenciales
+Contiene ejecutables basicos necesarios para arrancar y usar el sistema
+lrwxrwxrwx 1 root root 7 feb 24  2026 /bin -> usr/bin
+
+	/proc - Informacion de procesos y kernel
+Sistema de archivos virtual en memoria que expone informacion sobre procesos activos, CPU, memoria y el kernel
+total 0
+0 dr-xr-xr-x  9 root             root                           0 nov 22 17:34 1
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 1002
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 1012
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 1016
+0 dr-xr-xr-x  9 root             root                           0 nov 22 17:34 1036
+0 dr-xr-xr-x  9 rtkit            rtkit                          0 nov 22  2026 1066
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 11
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 1143
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 1152
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1171
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1172
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1182
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1184
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1185
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1187
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1191
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1196
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1204
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1274
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 129
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 13
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 130
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 133
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 14
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1435
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1441
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1449
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1456
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1466
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22 17:34 1473
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1482
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1485
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 15
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1506
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1516
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1521
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1528
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1529
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1530
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1531
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1535
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1536
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1537
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1567
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 158
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1582
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1583
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1584
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1585
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1587
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1592
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 16
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1615
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1624
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1629
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1631
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1638
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1639
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1640
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1649
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1650
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1654
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1656
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1661
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1669
+0 dr-xr-xr-x  9 colord           colord                         0 nov 22  2026 1671
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1684
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 17
+0 dr-xr-xr-x  9 cups-browsed     lpadmin                        0 nov 22  2026 1744
+0 dr-xr-xr-x  9 kernoops         adm                            0 nov 22  2026 1748
+0 dr-xr-xr-x  9 kernoops         adm                            0 nov 22  2026 1752
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 18
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1808
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1809
+0 dr-xr-xr-x  9 geoclue          geoclue                        0 nov 22  2026 1826
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1840
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1857
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22  2026 1871
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 19
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22 17:34 1907
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22 17:34 1910
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22 17:35 1957
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22 17:35 1961
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22 17:36 1980
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22 17:36 1987
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22 17:36 1999
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 2
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 20
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 205
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22 17:41 2051
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22 17:41 2057
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 206
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 21
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 22
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 23
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 24
+0 dr-xr-xr-x  9 root             root                           0 nov 22 17:45 2482
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 25
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22 17:45 2507
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 256
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 26
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 27
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22 17:45 2836
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22 17:45 2859
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22 17:45 2867
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 29
+0 dr-xr-xr-x  9 root             root                           0 nov 22 17:46 2931
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 3
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 30
+0 dr-xr-xr-x  9 root             root                           0 nov 22 17:54 3000
+0 dr-xr-xr-x  9 root             root                           0 nov 22 17:58 3037
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 31
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 311
+0 dr-xr-xr-x  9 root             root                           0 nov 22 18:03 3141
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22 18:03 3143
+0 dr-xr-xr-x  9 root             root                           0 nov 22 18:07 3155
+0 dr-xr-xr-x  9 root             root                           0 nov 22 18:08 3157
+0 dr-xr-xr-x  9 root             root                           0 nov 22 18:09 3161
+0 dr-xr-xr-x  9 root             root                           0 nov 22 18:14 3171
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22 18:15 3176
+0 dr-xr-xr-x  9 root             root                           0 nov 22 17:34 318
+0 dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 22 18:15 3181
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 32
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 33
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 34
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 36
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 38
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 39
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 4
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 40
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 41
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 42
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 43
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 44
+0 dr-xr-xr-x  9 root             root                           0 nov 22 17:34 458
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 46
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 47
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 48
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 49
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 5
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 50
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 51
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 52
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 54
+0 dr-xr-xr-x  9 systemd-resolve  systemd-resolve                0 nov 22  2026 543
+0 dr-xr-xr-x  9 systemd-timesync systemd-timesync               0 nov 22  2026 549
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 55
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 56
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 57
+0 dr-xr-xr-x  9 root             root                           0 nov 22 17:34 594
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 6
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 61
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 62
+0 dr-xr-xr-x  9 root             root                           0 nov 22 17:34 621
+0 dr-xr-xr-x  9 root             root                           0 nov 22 17:34 622
+0 dr-xr-xr-x  9 root             root                           0 nov 22 17:34 624
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 63
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 667
+0 dr-xr-xr-x  9 avahi            avahi                          0 nov 22  2026 668
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 670
+0 dr-xr-xr-x  9 messagebus       messagebus                     0 nov 22  2026 671
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 682
+0 dr-xr-xr-x  9 polkitd          polkitd                        0 nov 22  2026 694
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 7
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 702
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 71
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 710
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 714
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 720
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 73
+0 dr-xr-xr-x  9 avahi            avahi                          0 nov 22 17:34 750
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 770
+0 dr-xr-xr-x  9 root             netdev                         0 nov 22  2026 776
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 78
+0 dr-xr-xr-x  9 syslog           syslog                         0 nov 22  2026 793
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 8
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 840
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 87
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 9
+0 dr-xr-xr-x  9 root             root                           0 nov 22  2026 983
+0 dr-xr-xr-x  4 root             root                           0 nov 22 17:34 acpi
+0 dr-xr-xr-x 15 root             root                           0 nov 22  2026 asound
+0 -r--r--r--  1 root             root                           0 nov 22 18:15 bootconfig
+0 -rw-r--r--  1 root             root                           0 nov 22 18:15 brcm_monitor0
+0 -r--r--r--  1 root             root                           0 nov 22 18:15 buddyinfo
+0 dr-xr-xr-x  4 root             root                           0 nov 22 18:15 bus
+0 -r--r--r--  1 root             root                           0 nov 22  2026 cgroups
+0 -r--r--r--  1 root             root                         106 nov 22 17:34 cmdline
+0 -r--r--r--  1 root             root                           0 nov 22 18:15 consoles
+0 -r--r--r--  1 root             root                           0 nov 22  2026 cpuinfo
+0 -r--r--r--  1 root             root                           0 nov 22 18:15 crypto
+0 -r--r--r--  1 root             root                           0 nov 22  2026 devices
+0 -r--r--r--  1 root             root                           0 nov 22 18:15 diskstats
+0 -r--r--r--  1 root             root                           0 nov 22 18:15 dma
+0 dr-xr-xr-x  3 root             root                           0 nov 22 18:15 driver
+0 dr-xr-xr-x  3 root             root                           0 nov 22 18:15 dynamic_debug
+0 -r--r--r--  1 root             root                           0 nov 22 18:15 execdomains
+0 -r--r--r--  1 root             root                           0 nov 22 18:15 fb
+0 -r--r--r--  1 root             root                           0 nov 22 17:34 filesystems
+0 dr-xr-xr-x  5 root             root                           0 nov 22 18:15 fs
+0 -r--r--r--  1 root             root                           0 nov 22  2026 interrupts
+0 -r--r--r--  1 root             root                           0 nov 22 18:15 iomem
+0 -r--r--r--  1 root             root                           0 nov 22  2026 ioports
+0 dr-xr-xr-x 27 root             root                           0 nov 22  2026 irq
+0 -r--r--r--  1 root             root                           0 nov 22 18:15 kallsyms
+0 -r--------  1 root             root             140737471594496 nov 22  2026 kcore
+0 -r--r--r--  1 root             root                           0 nov 22 18:15 keys
+0 -r--r--r--  1 root             root                           0 nov 22 18:15 key-users
+0 -r--------  1 root             root                           0 nov 22  2026 kmsg
+0 -r--------  1 root             root                           0 nov 22 18:15 kpagecgroup
+0 -r--------  1 root             root                           0 nov 22 18:15 kpagecount
+0 -r--------  1 root             root                           0 nov 22 18:15 kpageflags
+0 -rw-r--r--  1 root             root                           0 nov 22 18:15 latency_stats
+0 -r--r--r--  1 root             root                           0 nov 22 18:15 loadavg
+0 -r--r--r--  1 root             root                           0 nov 22 18:15 locks
+0 -r--r--r--  1 root             root                           0 nov 22  2026 mdstat
+0 -r--r--r--  1 root             root                           0 nov 22  2026 meminfo
+0 -r--r--r--  1 root             root                           0 nov 22 18:15 misc
+0 -r--r--r--  1 root             root                           0 nov 22  2026 modules
+0 lrwxrwxrwx  1 root             root                          11 nov 22 17:34 mounts -> self/mounts
+0 -rw-r--r--  1 root             root                           0 nov 22  2026 mtrr
+0 lrwxrwxrwx  1 root             root                           8 nov 22  2026 net -> self/net
+0 -r--------  1 root             root                           0 nov 22 18:15 pagetypeinfo
+0 -r--r--r--  1 root             root                           0 nov 22 18:15 partitions
+0 dr-xr-xr-x  5 root             root                           0 nov 22 17:34 pressure
+0 -r--r--r--  1 root             root                           0 nov 22 18:15 schedstat
+0 dr-xr-xr-x  5 root             root                           0 nov 22 18:15 scsi
+0 lrwxrwxrwx  1 root             root                           0 nov 22 17:34 self -> 3181
+0 -r--------  1 root             root                           0 nov 22 18:15 slabinfo
+0 -r--r--r--  1 root             root                           0 nov 22 18:15 softirqs
+0 -r--r--r--  1 root             root                           0 nov 22  2026 stat
+0 -r--r--r--  1 root             root                           0 nov 22  2026 swaps
+0 dr-xr-xr-x  1 root             root                           0 nov 22 17:34 sys
+0 --w-------  1 root             root                           0 nov 22 18:15 sysrq-trigger
+0 dr-xr-xr-x  5 root             root                           0 nov 22 18:15 sysvipc
+0 lrwxrwxrwx  1 root             root                           0 nov 22 17:34 thread-self -> 3181/task/3181
+0 -r--------  1 root             root                           0 nov 22 18:15 timer_list
+0 dr-xr-xr-x  6 root             root                           0 nov 22 18:15 tty
+0 -r--r--r--  1 root             root                           0 nov 22 17:34 uptime
+0 -r--r--r--  1 root             root                           0 nov 22 18:15 version
+0 -r--r--r--  1 root             root                           0 nov 22 18:15 version_signature
+0 -r--------  1 root             root                           0 nov 22 18:15 vmallocinfo
+0 -r--r--r--  1 root             root                           0 nov 22 18:15 vmstat
+0 -r--r--r--  1 root             root                           0 nov 22 17:36 zoneinfo
+FIN
