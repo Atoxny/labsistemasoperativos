@@ -18,3 +18,21 @@ echo ""
 # /home - Directorios personales de los usuarios
 echo "	/home - Directorios de usuarios "
 echo "Guarda las carpetas personales, configuracion y archivos de cada usuario normal"
+
+# /tmp - Archivos temporales
+echo "	/tmp - Archivos temprales"
+echo " Espacio temporal compartido por programas y usuarios que suele eliminares al reiniciar"
+ls -la /tmp
+echo ""
+
+# /bin - Binarios
+echo "	/bin - Comandos esenciales"
+echo "Contiene ejecutables basicos necesarios para arrancar y usar el sistema"
+ls -la /bin
+echo ""
+
+# /proc - Sistema de archivos virtual del kernel y procesos
+echo "	/proc - Informacion de procesos y kernel"
+echo "Sistema de archivos virtual en memoria que expone informacion sobre procesos activos, CPU, memoria y el kernel"
+ls -ls /proc
+echo ""
