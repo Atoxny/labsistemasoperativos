@@ -1,0 +1,96 @@
+ === / etc === 
+ / etc guarda archivos de configuracion del sistema en texto plano . 
+total 1368
+-rw-r--r--  1 root   root     3444 jul  5  2023 adduser.conf
+-rw-r--r--  1 root   root       18 feb 24  2026 adjtime
+drwxr-xr-x  3 root   root     4096 ene  8  2026 alsa
+drwxr-xr-x  2 root   root    12288 nov 17 13:38 alternatives
+-rw-r--r--  1 root   root      335 abr  8  2024 anacrontab
+drwxr-xr-x  3 root   root     4096 mar  2  2026 apache2
+-rw-r--r--  1 root   root      433 abr  8  2024 apg.conf
+drwxr-xr-x  5 root   root     4096 ene  8  2026 apm
+drwxr-xr-x  3 root   root     4096 nov 17 13:33 apparmor
+drwxr-xr-x  9 root   root    12288 nov 17 13:35 apparmor.d
+drwxr-xr-x  3 root   root     4096 ene  8  2026 apport
+drwxr-xr-x  8 root   root     4096 feb 24  2026 apt
+drwxr-xr-x  3 root   root     4096 nov 17 13:35 avahi
+-rw-r--r--  1 root   root     2319 mar 31  2024 bash.bashrc
+-rw-r--r--  1 root   root       45 ene 24  2020 bash_completion
+drwxr-xr-x  2 root   root     4096 feb 26  2026 bash_completion.d
+-rw-r--r--  1 root   root      367 ago  2  2022 bindresvport.blacklist
+drwxr-xr-x  2 root   root     4096 abr 19  2024 binfmt.d
+drwxr-xr-x  2 root   root     4096 ene  8  2026 bluetooth
+  
+ 
+ === / var === 
+ / var guarda datos que cambian : registros , colas y caches . 
+total 36K
+drwxr-xr-x  2 root root   4,0K nov 22 17:21 backups
+drwxr-xr-x 24 root root   4,0K mar  2  2026 cache
+drwxr-xr-x 75 root root   4,0K mar  2  2026 lib
+drwxrwsr-x  2 root staff  4,0K abr 22  2024 local
+lrwxrwxrwx  1 root root      9 feb 24  2026 lock -> /run/lock
+drwxrwxr-x 14 root syslog 4,0K nov 26  2026 log
+drwxrwsr-x  2 root mail   4,0K ene  8  2026 mail
+drwxr-xr-x  2 root root   4,0K ene  8  2026 opt
+lrwxrwxrwx  1 root root      4 feb 24  2026 run -> /run
+drwxr-xr-x  7 root root   4,0K ene  8  2026 spool
+drwxrwxrwt 13 root root   4,0K nov 25 23:42 tmp
+  
+ 
+ === / home === 
+ / home contiene un subdirectorio por usuario con sus archivos personales . 
+total 4
+drwxr-x--- 31 mamitomoe mamitomoe 4096 nov 25 23:04 mamitomoe
+  
+ 
+ === / bin === 
+ / bin contiene programas esenciales disponibles para todo usuario . 
+lrwxrwxrwx 1 root root 7 feb 24  2026 /bin -> usr/bin
+  
+ 
+ === / tmp === 
+ / tmp contiene archivos temporales que se vacian al reiniciar . 
+total 52K
+-rw------- 1 mamitomoe mamitomoe    0 nov 25 23:04 config-err-bH1vpA
+drwxrwxrwx 2 mamitomoe mamitomoe 4,0K nov 25 23:04 mintUpdate
+-rw-rw-r-- 1 mamitomoe mamitomoe    0 nov 25 23:05 MozillaUpdateLock-4F96D1932A9F858E
+drwx------ 2 mamitomoe mamitomoe 4,0K nov 25 23:04 ssh-7uCBjqkVpP79
+drwx------ 3 root      root      4,0K nov 25 23:04 systemd-private-c53129563ee549c3b5666cc6230acb21-colord.service-aF5U6O
+drwx------ 3 root      root      4,0K nov 25 23:18 systemd-private-c53129563ee549c3b5666cc6230acb21-fwupd.service-Ofo2M0
+drwx------ 3 root      root      4,0K nov 25 23:04 systemd-private-c53129563ee549c3b5666cc6230acb21-geoclue.service-0MS81M
+drwx------ 3 root      root      4,0K nov 26  2026 systemd-private-c53129563ee549c3b5666cc6230acb21-ModemManager.service-sad8UC
+drwx------ 3 root      root      4,0K nov 26  2026 systemd-private-c53129563ee549c3b5666cc6230acb21-polkit.service-hW4hL5
+drwx------ 3 root      root      4,0K nov 26  2026 systemd-private-c53129563ee549c3b5666cc6230acb21-power-profiles-daemon.service-5HkcQt
+drwx------ 3 root      root      4,0K nov 26  2026 systemd-private-c53129563ee549c3b5666cc6230acb21-switcheroo-control.service-wkcLWK
+drwx------ 3 root      root      4,0K nov 26  2026 systemd-private-c53129563ee549c3b5666cc6230acb21-systemd-logind.service-PKpTCs
+drwx------ 3 root      root      4,0K nov 26  2026 systemd-private-c53129563ee549c3b5666cc6230acb21-systemd-resolved.service-u6o3Pc
+drwx------ 3 root      root      4,0K nov 26  2026 systemd-private-c53129563ee549c3b5666cc6230acb21-systemd-timesyncd.service-xixsxO
+drwx------ 3 root      root      4,0K nov 26  2026 systemd-private-c53129563ee549c3b5666cc6230acb21-upower.service-9t1J9v
+  
+ 
+ === / proc === 
+ / proc es un sistema virtual : el kernel genera su contenido al leerlo . 
+total 0
+dr-xr-xr-x  9 root             root                           0 nov 25 23:04 1
+dr-xr-xr-x  9 root             root                           0 nov 26  2026 1004
+dr-xr-xr-x  9 root             root                           0 nov 26  2026 1014
+dr-xr-xr-x  9 root             root                           0 nov 26  2026 1018
+dr-xr-xr-x  9 root             root                           0 nov 25 23:04 1038
+dr-xr-xr-x  9 cups-browsed     lpadmin                        0 nov 26  2026 1048
+dr-xr-xr-x  9 kernoops         adm                            0 nov 26  2026 1050
+dr-xr-xr-x  9 kernoops         adm                            0 nov 26  2026 1053
+dr-xr-xr-x  9 rtkit            rtkit                          0 nov 26  2026 1084
+dr-xr-xr-x  9 root             root                           0 nov 26  2026 1160
+dr-xr-xr-x  9 root             root                           0 nov 26  2026 1170
+dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 25 23:04 1190
+dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 25 23:04 1191
+dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 25 23:04 1203
+dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 25 23:04 1204
+dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 25 23:04 1206
+dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 25 23:04 1207
+dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 25 23:04 1208
+dr-xr-xr-x  9 mamitomoe        mamitomoe                      0 nov 25 23:04 1213
+  
+ 
+ Exploracion completada . 
