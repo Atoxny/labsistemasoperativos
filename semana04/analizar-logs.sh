@@ -21,3 +21,11 @@ echo " "
 echo " === Lineas con error 500 === "
 # Los e s p a c i o s a l r e d e d o r de 500 evitan c o i n c i d i r con tamanos o rutas
 grep " 500 " "$LOG" || echo " ( ninguna ) "
+
+echo " "
+echo " === Hora pico ( hora con mas peticiones ) === "
+# La hora esta dentro de [ fecha : hora : min : seg ]; dos cortes la aislan
+cut -d ’[ ’ - f2 " $LOG " | cut -d ’: ’ - f2 | sort | uniq -c | sort - nr | head -n 1
+
+echo " "
+echo " Analisis completado . "
