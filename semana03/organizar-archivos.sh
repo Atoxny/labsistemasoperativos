@@ -20,3 +20,10 @@ touch trabajo/nota{1..10}.md
 
 echo -n " Archivos generados : "
 ls -1 trabajo | wc -l
+
+# C l a s i f i c a c i o n : el shell expande *. ext antes de e j e c u t a r mv
+mv trabajo/*.sh organized/scripts/
+mv trabajo/*.txt organized/documentos/
+mv trabajo/*.md organized/documentos/
+mv trabajo/*.jpg organized/imagenes/
+mv trabajo/*.log organized/registros/
